@@ -1,0 +1,42 @@
+.footer{
+	grid-area: footer;
+	display: flex;
+	background-color: #000038;
+	color: white;
+		font-family: 'Courier New', Courier, monospace;
+}
+
+.footer div{
+	width: 50%;
+}
+
+
+.footer div:nth-child(1){
+	text-align: center;
+}
+
+.footer ul{
+	list-style: none;
+}
+
+.footer li:not(:first-child){
+	margin-top: 10px;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #9C9C9C;
+}
+
+.footer div:nth-child(2n){
+	text-align: right;
+	margin-right: 10px;
+}
+
+.footer p{
+	color: #9C9C9C;
+}
+
+.footer h3,h4{
+	color: white;
+}

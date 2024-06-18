@@ -1,0 +1,61 @@
+.info{
+	grid-area: info;
+	background-color: #000038;
+	color: white;
+	padding-bottom: 60px;
+}
+
+.info h3{
+	text-align: center;
+}
+
+.info_block_nechet{
+	display: flex;
+	width: 100%;
+
+  align-items: center;
+}
+
+.info_block_nechet:not(:first-child) {
+	margin-top: 40px;
+}
+
+.info_block_nechet div {
+	width: 50%;
+	text-align: center;
+
+}
+
+.info_block_nechet img{
+	
+	width: 400px;
+	height: 200px;
+}
+
+.info_block_nechet p{
+
+	
+}
+
+.info_block_chet{
+	margin-top: 40px;
+	display: flex;
+  	align-items: center;
+}
+
+.info_block_chet div {
+	width: 50%;
+	text-align: center;
+	
+}
+
+.info_block_chet img{
+	
+	width: 400px;
+	height: 200px;
+}
+
+.info_block_chet p{
+	
+	
+}

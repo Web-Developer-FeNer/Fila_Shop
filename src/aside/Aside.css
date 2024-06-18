@@ -1,0 +1,62 @@
+
+
+.aside{
+	grid-area: aside;
+	text-align: center;
+	background-color: #000038;
+	color: white;
+	align-items: center;
+	padding-bottom: 30px;
+	margin-top: -50%;
+}
+
+.aside div{
+	align-items: center;
+	text-align: center;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+  background-color: white;
+  color: #000038;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  
+}
+
+.aside div:not(:first-child){
+	margin-top: 20px;
+}
+
+.aside div:hover{
+	box-shadow: 0 0 10px white;
+}
+
+.aside h2{
+	color: white;
+}
+
+.aside input {
+	margin-top: 30px;
+}
+
+.aside button {
+	margin-bottom: 30px;
+	cursor: pointer;
+	border: 10px solid white;
+	border-radius: 8px;
+	background-color: white;
+	color: #000038;
+}
+
+.aside button:hover {
+	 box-shadow: 0 0 10px white;
+}
+
+/*@media screen and (min-width: 1080px){
+	.aside div{
+		margin-left: 125px;
+	}
+}
+*/

@@ -1,0 +1,12 @@
+.oboi{
+	grid-area: oboi;
+	margin-top: 40px;
+	width: 100%;
+	height: 70%;
+}
+
+.oboi img{
+	width: 100%;
+	height: 100%;
+	
+}

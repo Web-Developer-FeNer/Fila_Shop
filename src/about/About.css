@@ -1,0 +1,9 @@
+.about{
+	grid-area: about;
+
+}
+
+.about p{
+	color: #000038;
+	font-family: 'Courier New', Courier, monospace;
+}

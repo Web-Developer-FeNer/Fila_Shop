@@ -1,0 +1,52 @@
+.callback{
+	grid-area: callback;
+	text-align: center;
+	
+}
+
+.callback form{
+	
+}
+
+.callback  form div:not(:first-child){
+	margin-top: 20px;
+}
+
+.first-label{
+	padding-right: 280px;
+}
+.second-label{
+	padding-right: 240px;
+}
+.third-label{
+	padding-right: 210px;
+}
+
+.callback form label{
+	
+	font-weight: 600;
+	color: #000038;
+}
+
+.callback form input{
+	width: 300px;
+	color: #000038;
+}
+
+.callback .form_text {
+	height: 100px;
+}
+
+.callback .but_send{
+	margin-top: 20px;
+	width: 150px;
+	cursor: pointer;
+	color: white;
+	background-color: #000038;
+	border: 10px solid #000038;
+	border-radius: 8px;
+}
+
+.callback .but_send:hover {
+	box-shadow: 0 0 10px #000038;
+}
